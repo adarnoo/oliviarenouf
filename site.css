@@ -20,16 +20,10 @@ a {
 .or-image-container {
   position: fixed;
   top: 5%;
-  width: 75%;
-  margin: 0 12.5%;
+  width: 90%;
+  margin: 0 5%;
 }
 
 .or-main-gif {
-  width: 25%;
-}
-
-.or-navigation {
-  position: fixed;
-  bottom: 2%;
-  left: 4%;
+  width: 30%;
 }
