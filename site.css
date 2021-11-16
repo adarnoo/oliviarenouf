@@ -4,9 +4,8 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: tahoma;
   font-size: 2vw;
-  text-align: center;
 }
 
 img {
@@ -17,8 +16,45 @@ a {
   color: black;
 }
 
+.or-navigation-container {
+  position: fixed;
+  top: 2%;
+  width: 15%;
+  margin: 0 42.5%;
+}
+
+.emoji {
+  width: 47%;
+}
+
+.or-name-container {
+  animation-name: flashing-text;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  position: fixed;
+  left: 2%;
+  bottom: 2%;
+}
+
+@keyframes flashing-text {
+  50% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.or-landing-image-container {
+  position: fixed;
+  width: 50%;
+  margin: 0 25%;
+  top: 20%;
+}
+
 .or-image-container {
   position: fixed;
+  z-index: 2;
   top: 5%;
   width: 90%;
   margin: 0 5%;
@@ -26,4 +62,12 @@ a {
 
 .or-main-gif {
   width: 30%;
+}
+
+#grad {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  height: 950px;
+  background-image: linear-gradient(180deg, orange, aliceblue, darkorchid, green, blue);
 }
