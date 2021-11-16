@@ -45,29 +45,6 @@ a:hover {
   }
 }
 
-.or-landing-image-container {
-  position: fixed;
-  width: 50%;
-  margin: 0 25%;
-  top: 20%;
-}
-
-.or-landing-image {
-  width: 100%;
-}
-
-.or-image-container {
-  position: fixed;
-  z-index: 2;
-  top: 5%;
-  width: 90%;
-  margin: 0 5%;
-}
-
-.or-main-gif {
-  width: 30%;
-}
-
 #grad {
   position: fixed;
   top: -40%;
