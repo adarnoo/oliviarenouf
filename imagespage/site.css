@@ -16,8 +16,9 @@ a {
   color: black;
 }
 
-a:hover {
-  color: aliceblue;
+.or-page {
+  position: relative;
+  width: 100%;
 }
 
 .or-navigation-container {
@@ -26,6 +27,7 @@ a:hover {
   width: 15%;
   margin: 0 42.5%;
 }
+
 .or-emoji {
   width: 47%;
 }
@@ -45,11 +47,14 @@ a:hover {
   }
 }
 
-#grad {
-  position: fixed;
-  top: -40%;
-  z-index: -1;
-  width: 100%;
-  height: 700px;
-  background-image: linear-gradient(180deg, black, transparent);
+.or-composition-container {
+  position: absolute;
+  width: 50%;
+  margin: 0 25%;
+  top: 20%;
+  padding: 0;
+}
+
+.or-image {
+  width: 10%:
 }
