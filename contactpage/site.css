@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: tahoma;
+  font-size: 2vw;
+}
+
+a {
+  animation-name: flashing-text;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+a:hover {
+  color: aliceblue;
+}
+
+.or-navigation-container {
+  position: fixed;
+  top: 2%;
+  width: 15%;
+  margin: 0 42.5%;
+}
+
+.or-navigation-container--right {
+  position: fixed;
+  top: 50%;
+  width: 15%;
+  right: -5%;
+  transform: rotate(90deg);
+}
+
+.or-emoji {
+  width: 47%;
+}
+
+.or-name-container {
+  position: fixed;
+  left: 2%;
+  bottom: 2%;
+}
+
+@keyframes flashing-text {
+  50% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+
+.or-text-container {
+  position: fixed;
+  top: 20%;
+  width: 70%;
+  margin: 0 15%;
+
+}
