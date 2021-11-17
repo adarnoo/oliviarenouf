@@ -30,6 +30,15 @@ a:hover {
   width: 15%;
   margin: 0 42.5%;
 }
+
+.or-navigation-container--right {
+  position: fixed;
+  top: 50%;
+  width: 15%;
+  right: -5%;
+  transform: rotate(90deg);
+}
+
 .or-emoji {
   width: 47%;
 }
@@ -53,7 +62,7 @@ a:hover {
   position: absolute;
   width: 50%;
   margin: 0 25%;
-  top: 150px;
+  top: 20%;
 }
 
 .or-landing-image {
