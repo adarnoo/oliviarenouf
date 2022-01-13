@@ -65,7 +65,7 @@ a:hover {
 }
 
 .or-composition-container--mobile {
-  position: absolute;
+  position: fixed;
   width: 80%;
   margin: 0 10%;
   opacity: 0;
@@ -130,6 +130,7 @@ a:hover {
   }
 
   .or-composition-container--mobile {
+    position: absolute;
     opacity: 1;
   }
 
