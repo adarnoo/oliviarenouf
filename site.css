@@ -4,7 +4,7 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  font-family: tahoma;
+  font-family: helvetica;
   font-size: 2vw;
 }
 
@@ -51,7 +51,7 @@ a:hover {
 
 @keyframes flashing-text {
   50% {
-    color: white;
+    color: transparent;
   }
   100% {
     color: black;
@@ -69,10 +69,35 @@ a:hover {
   width: 100%;
 }
 
-.or-image-container {
-  position: fixed;
-  z-index: 2;
-  top: 5%;
-  width: 90%;
-  margin: 0 5%;
+/* Mobile View */
+
+@media only screen and (min-device-width: 320px) and
+(max-device-width: 480px) and
+(-webkit-min-device-pixel-ratio: 2) {
+
+  .or-navigation-container {
+    top: 2%;
+    width: 20%;
+    margin: 0 40%;
+  }
+
+  .or-navigation-container--right {
+    top: 45%;
+    width: 15%;
+    right: -3%;
+    font-size: 4vw;
+  }
+
+  .or-name-container {
+    font-size: 4vw;
+    left: 4%;
+  }
+
+  .or-landing-image-container {
+    position: absolute;
+    width: 80%;
+    margin: 0 10%;
+    top: 10%;
+  }
+
 }

@@ -3,7 +3,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  font-family: tahoma;
+  font-family: helvetica;
   font-size: 2vw;
 }
 
@@ -50,7 +50,7 @@ a:hover {
 
 @keyframes flashing-text {
   50% {
-    color: white;
+    color: transparent;
   }
   100% {
     color: black;
@@ -61,6 +61,14 @@ a:hover {
   position: absolute;
   width: 100%;
   z-index: -1;
+  top: 1%;
+}
+
+.or-composition-container--mobile {
+  position: absolute;
+  width: 80%;
+  margin: 0 10%;
+  opacity: 0;
 }
 
 .or-composition-container-left {
@@ -78,10 +86,63 @@ a:hover {
 }
 
 .or-image {
-  margin: 2% 0%;
+  margin: 3% 0%;
   width: 100%;
 }
 
 .or-image--space {
   margin: 50% 0% 2% 0%;
+}
+
+/* Mobile View */
+
+@media only screen and (min-device-width: 320px) and
+(max-device-width: 480px) and
+(-webkit-min-device-pixel-ratio: 2) {
+
+  .or-navigation-container {
+    top: 2%;
+    width: 20%;
+    margin: 0 40%;
+  }
+
+  .or-navigation-container--right {
+    top: 45%;
+    width: 15%;
+    right: -3%;
+    font-size: 4vw;
+  }
+
+  .or-name-container {
+    font-size: 4vw;
+    left: 4%;
+  }
+
+  .or-landing-image-container {
+    position: absolute;
+    width: 80%;
+    margin: 0 10%;
+    top: 10%;
+  }
+
+  .or-composition-container {
+    top: 10%;
+  }
+
+  .or-composition-container--mobile {
+    opacity: 1;
+  }
+
+  .or-composition-container-left {
+    display: none;
+  }
+
+  .or-composition-container-right {
+    display: none;
+  }
+
+  .or-image--space {
+    margin: 30% 0% 2% 0%;
+  }
+
 }
