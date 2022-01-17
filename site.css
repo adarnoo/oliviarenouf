@@ -76,11 +76,6 @@ a:hover {
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
 
-  .or-navigation-container {
-    top: 2%;
-    width: 20%;
-    margin: 0 40%;
-  }
 
   .or-navigation-container--right {
     top: 45%;
