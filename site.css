@@ -29,6 +29,7 @@ a:hover {
   top: 2%;
   width: 15%;
   margin: 0 42.5%;
+  z-index: 10;
 }
 
 .or-navigation-container--right {
@@ -97,7 +98,18 @@ a:hover {
     position: absolute;
     width: 80%;
     margin: 0 10%;
-    top: 10%;
+    top: 20%;
+  }
+
+  .or-navigation-container {
+    position: fixed;
+    top: 2%;
+    width: 40%;
+    margin: 0 30%;
+  }
+
+  .or-emoji {
+    width: 49%;
   }
 
 }
