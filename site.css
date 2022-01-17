@@ -3,6 +3,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
+  overflow: hidden;
   font-family: helvetica;
   font-size: 2vw;
 }
@@ -28,6 +29,7 @@ a:hover {
   top: 2%;
   width: 15%;
   margin: 0 42.5%;
+  z-index: 10;
 }
 
 .or-navigation-container--right {
@@ -57,45 +59,15 @@ a:hover {
   }
 }
 
-.or-composition-container {
+.or-landing-image-container {
   position: absolute;
+  width: 60%;
+  margin: 0 20%;
+  top: 20%;
+}
+
+.or-landing-image {
   width: 100%;
-  z-index: -1;
-  top: 1%;
-}
-
-.or-composition-container--mobile {
-  position: fixed;
-  width: 80%;
-  margin: 0 10%;
-  opacity: 0;
-}
-
-.or-composition-container-left {
-  position: absolute;
-  width: 30%;
-  left: 10%;
-  float: left;
-}
-
-.or-composition-container-right {
-  position: absolute;
-  width: 30%;
-  right: 10%;
-  float: left;
-}
-
-.or-image {
-  margin: 3% 0%;
-  width: 100%;
-}
-
-.or-image--space {
-  margin: 50% 0% 2% 0%;
-}
-
-.or-image--last {
-  padding: 0% 0% 2% 0%;
 }
 
 /* Mobile View */
@@ -104,12 +76,6 @@ a:hover {
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
 
-  .or-navigation-container {
-    position: fixed;
-    top: 2%;
-    width: 40%;
-    margin: 0 30%;
-  }
 
   .or-navigation-container--right {
     top: 45%;
@@ -127,28 +93,18 @@ a:hover {
     position: absolute;
     width: 80%;
     margin: 0 10%;
-    top: 10%;
+    top: 20%;
   }
 
-  .or-composition-container {
-    top: 15%;
+  .or-navigation-container {
+    position: fixed;
+    top: 2%;
+    width: 40%;
+    margin: 0 30%;
   }
 
-  .or-composition-container--mobile {
-    position: absolute;
-    opacity: 1;
-  }
-
-  .or-composition-container-left {
-    display: none;
-  }
-
-  .or-composition-container-right {
-    display: none;
-  }
-
-  .or-image--space {
-    margin: 30% 0% 2% 0%;
+  .or-emoji {
+    width: 49%;
   }
 
 }
