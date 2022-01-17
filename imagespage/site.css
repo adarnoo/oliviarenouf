@@ -94,6 +94,10 @@ a:hover {
   margin: 50% 0% 2% 0%;
 }
 
+.or-image--last {
+  padding: 0% 0% 2% 0%;
+}
+
 /* Mobile View */
 
 @media only screen and (min-device-width: 320px) and
@@ -101,9 +105,10 @@ a:hover {
 (-webkit-min-device-pixel-ratio: 2) {
 
   .or-navigation-container {
+    position: fixed;
     top: 2%;
-    width: 20%;
-    margin: 0 40%;
+    width: 40%;
+    margin: 0 30%;
   }
 
   .or-navigation-container--right {
@@ -126,7 +131,7 @@ a:hover {
   }
 
   .or-composition-container {
-    top: 10%;
+    top: 15%;
   }
 
   .or-composition-container--mobile {
