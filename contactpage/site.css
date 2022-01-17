@@ -73,9 +73,10 @@ a:hover {
 (-webkit-min-device-pixel-ratio: 2) {
 
   .or-navigation-container {
+    position: fixed;
     top: 2%;
-    width: 20%;
-    margin: 0 40%;
+    width: 40%;
+    margin: 0 30%;
   }
 
   .or-navigation-container--right {
@@ -101,7 +102,7 @@ a:hover {
     font-size: 4vw;
     width: 70%;
     margin: 0 15%;
-    top: 15%;
+    top: 20%;
 
   }
 
