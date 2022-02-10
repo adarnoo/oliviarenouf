@@ -63,8 +63,8 @@ a:hover {
 
 .or-composition-container--mobile {
   position: fixed;
-  width: 80%;
-  margin: 0 10%;
+  width: 70%;
+  margin: 0 15%;
   opacity: 0;
 }
 
@@ -118,13 +118,6 @@ a:hover {
   .or-name-container {
     font-size: 4vw;
     left: 4%;
-  }
-
-  .or-landing-image-container {
-    position: absolute;
-    width: 80%;
-    margin: 0 10%;
-    top: 10%;
   }
 
   .or-composition-container {
