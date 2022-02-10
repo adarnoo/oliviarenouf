@@ -9,9 +9,6 @@ body {
 }
 
 a {
-  animation-name: flashing-text;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
   text-decoration: none;
   color: black;
 }
