@@ -17,8 +17,10 @@ img {
   width: 100%;
 }
 
-a:hover {
-  color: aliceblue;
+.or-back-container {
+  position: fixed;
+  top: 2%;
+  left: 5%;
 }
 
 .or-navigation-container {

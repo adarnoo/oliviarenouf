@@ -3,12 +3,12 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow: hidden;
   font-family: helvetica;
   font-size: 2vw;
 }
 
 a {
+  animation-iteration-count: infinite;
   text-decoration: none;
   color: black;
 }
@@ -28,7 +28,6 @@ img {
   top: 2%;
   width: 15%;
   margin: 0 42.5%;
-  z-index: 10;
 }
 
 .or-navigation-container--right {
@@ -49,24 +48,18 @@ img {
   bottom: 2%;
 }
 
-@keyframes flashing-text {
-  50% {
-    color: transparent;
-  }
-  100% {
-    color: black;
-  }
-}
-
-.or-landing-image-container {
+.or-composition-container {
   position: absolute;
-  width: 60%;
-  margin: 0 20%;
+  width: 100%;
+  z-index: -1;
   top: 20%;
+  z-index: -1;
 }
 
-.or-landing-image {
-  width: 100%;
+.or-video-margin {
+  width: 70%;
+  margin: 0 15% 2% 15%;
+  top: 15%;
 }
 
 /* Mobile View */
@@ -75,6 +68,12 @@ img {
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
 
+  .or-navigation-container {
+    position: fixed;
+    top: 2%;
+    width: 40%;
+    margin: 0 30%;
+  }
 
   .or-navigation-container--right {
     top: 45%;
@@ -88,22 +87,5 @@ img {
     left: 4%;
   }
 
-  .or-landing-image-container {
-    position: absolute;
-    width: 80%;
-    margin: 0 10%;
-    top: 20%;
-  }
-
-  .or-navigation-container {
-    position: fixed;
-    top: 2%;
-    width: 40%;
-    margin: 0 30%;
-  }
-
-  .or-emoji {
-    width: 49%;
-  }
 
 }
