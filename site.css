@@ -75,6 +75,11 @@ img {
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
 
+  .or-back-container {
+    font-size: 5vw;
+    top: 1%;
+  }
+
 
   .or-navigation-container--right {
     top: 45%;
