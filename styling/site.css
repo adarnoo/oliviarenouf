@@ -70,19 +70,12 @@ h10 {
   top: 20%;
 }
 
-.or-composition-container--mobile {
-  position: fixed;
-  width: 70%;
-  margin: 0 15%;
-  opacity: 0;
-
-}
-
 .or-composition-container--middle {
   position: absolute;
   width: 50%;
   left: 25%;
 }
+
 .or-image {
   margin: 3% 0%;
   width: 100%;
@@ -135,17 +128,10 @@ h10 {
     top: 15%;
   }
 
-  .or-composition-container--mobile {
+  .or-composition-container--middle {
     position: absolute;
-    opacity: 1;
-  }
-
-  .or-composition-container-left {
-    display: none;
-  }
-
-  .or-composition-container-right {
-    display: none;
+    width: 70%;
+    left: 15%;
   }
 
 }
