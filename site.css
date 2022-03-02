@@ -69,6 +69,10 @@ img {
   width: 100%;
 }
 
+.or-name-container--mobile {
+  display: none;
+}
+
 /* Mobile View */
 
 @media only screen and (min-device-width: 320px) and
@@ -81,22 +85,18 @@ img {
 
 
   .or-navigation-container--right {
-    top: 45%;
-    width: 15%;
-    right: -3%;
-    font-size: 4vw;
+    display: none;
   }
 
   .or-name-container {
-    font-size: 4vw;
-    left: 4%;
+    display: none;
   }
 
   .or-landing-image-container {
     position: absolute;
     width: 80%;
     margin: 0 10%;
-    top: 32%;
+    top: 20%;
   }
 
   .or-navigation-container {
@@ -104,6 +104,15 @@ img {
     top: 2%;
     width: 40%;
     margin: 0 30%;
+  }
+
+  .or-name-container--mobile {
+    position: fixed;
+    font-size: 4vw;
+    text-align: center;
+    bottom: 3%;
+    display: block;
+    width: 100%;
   }
 
 
