@@ -16,6 +16,12 @@ img {
   width: 100%;
 }
 
+h10 {
+  font-family: courier;
+  font-size: 1vw;
+  text-decoration: none;
+}
+
 .or-back-container {
   position: fixed;
   bottom: 4%;
@@ -83,7 +89,7 @@ img {
 }
 
 .or-image--space {
-  margin: 50% 0% 2% 0%;
+  margin: 0% 0% 25% 0%;
 }
 
 .or-image--last {
@@ -95,6 +101,10 @@ img {
 @media only screen and (min-device-width: 320px) and
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
+
+  h10 {
+    font-size: 2.5vw;
+  }
 
   .or-back-container {
     width: 4%;
@@ -136,10 +146,6 @@ img {
 
   .or-composition-container-right {
     display: none;
-  }
-
-  .or-image--space {
-    margin: 30% 0% 2% 0%;
   }
 
 }
