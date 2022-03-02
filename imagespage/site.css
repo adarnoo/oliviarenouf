@@ -18,8 +18,9 @@ img {
 
 .or-back-container {
   position: fixed;
-  top: 2%;
-  left: 5%;
+  bottom: 4%;
+  left: 3%;
+  width: 3%;
 }
 
 .or-navigation-container {
@@ -60,7 +61,7 @@ img {
   position: absolute;
   width: 100%;
   z-index: -1;
-  top: 1%;
+  top: 0%;
 }
 
 .or-composition-container--mobile {
@@ -102,6 +103,11 @@ img {
 @media only screen and (min-device-width: 320px) and
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
+
+  .or-back-container {
+    width: 4%;
+    left: 5%;
+  }
 
   .or-navigation-container {
     position: fixed;

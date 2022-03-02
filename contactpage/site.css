@@ -21,6 +21,7 @@ img {
   position: fixed;
   top: 2%;
   left: 5%;
+  width: 3%;
 }
 
 .or-navigation-container {
@@ -70,6 +71,10 @@ img {
 @media only screen and (min-device-width: 320px) and
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
+
+  .or-back-container {
+    width: 4%;
+  }
 
   .or-navigation-container {
     position: fixed;

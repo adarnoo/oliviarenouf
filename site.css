@@ -21,6 +21,7 @@ img {
   position: fixed;
   top: 2%;
   left: 5%;
+  width: 3%;
 }
 
 .or-navigation-container {
@@ -76,8 +77,7 @@ img {
 (-webkit-min-device-pixel-ratio: 2) {
 
   .or-back-container {
-    font-size: 5vw;
-    top: 1%;
+    width: 4%;
   }
 
 
