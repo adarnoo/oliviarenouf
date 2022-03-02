@@ -29,7 +29,6 @@ img {
   top: 2%;
   width: 15%;
   margin: 0 42.5%;
-  z-index: 10;
 }
 
 .or-navigation-container--right {
@@ -107,8 +106,6 @@ img {
     margin: 0 30%;
   }
 
-  .or-emoji {
-    width: 49%;
-  }
+
 
 }
