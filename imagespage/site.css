@@ -76,6 +76,7 @@ a {
 .or-image--small {
   width: 40%;
   margin: 0 30%;
+  padding: 100px 0 150px 0;
 }
 
 /* Mobile View */
@@ -152,6 +153,10 @@ a {
   .or-image {
     width: 100%;
     padding-bottom: 50px;
+  }
+
+  .or-image--small {
+    display: none;
   }
 
 }
