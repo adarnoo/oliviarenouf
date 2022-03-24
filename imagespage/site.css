@@ -70,13 +70,12 @@ a {
 
 .or-image {
   width: 100%;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
 }
 
 .or-image--small {
   width: 40%;
   margin: 0 30%;
-  padding: 100px 0 150px 0;
 }
 
 /* Mobile View */
@@ -147,18 +146,18 @@ a {
     width: 90%;
     margin: 0 5%;
     padding-top: 300px;
-    padding-bottom: 250px;
+    padding-bottom: 300px;
   }
 
   .or-image {
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
   }
 
   .or-image--small {
     width: 100%;
     margin: 0;
-    padding: 0 0 50px 0;
+    padding: 0 0 300px 0;
   }
 
 }
