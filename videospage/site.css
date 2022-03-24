@@ -1,66 +1,92 @@
 body {
-  margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  margin: 0;
   font-family: helvetica;
-  font-size: 2vw;
+  font-size: 1vw;
 }
 
 a {
-  animation-iteration-count: infinite;
   text-decoration: none;
   color: black;
 }
 
-img {
+.or-page-content {
   width: 100%;
+  height: 100vh;
 }
 
-.or-back-container {
-  position: fixed;
-  bottom: 4%;
-  left: 3%;
-  width: 3%;
-}
+/* Emoji Nav Styling */
 
-.or-navigation-container {
-  position: fixed;
-  top: 2%;
-  width: 15%;
-  margin: 0 42.5%;
-}
-
-.or-navigation-container--right {
-  position: fixed;
-  top: 50%;
-  width: 15%;
-  right: -5%;
-  transform: rotate(90deg);
+.or-header-container {
+  position: absolute;
+  width: 50%;
+  margin: 0 25%;
+  z-index: 99;
 }
 
 .or-emoji {
-  width: 47%;
+  width: 100%;
 }
 
-.or-name-container {
-  position: fixed;
-  left: 2%;
-  bottom: 2%;
+.or-emoji--first {
+  float: left;
 }
 
-.or-composition-container {
+.or-emoji--second {
+  position: absolute;
+  float: left;
+  right: 0;
+}
+
+.or-main-content {
   position: absolute;
   width: 100%;
-  z-index: -1;
-  top: 20%;
-  z-index: -1;
+}
+
+/*Word Nav Styling */
+
+.or-nav-container {
+  position: fixed;
+  bottom: 3%;
+  left: 2%;
+  font-weight: bold;
+}
+
+.or-back-arrow-image {
+  width: 2%;
+}
+
+.or-nav-container--mobile {
+  display: none;
+}
+
+.or-nav-container-top {
+  position: fixed;
+  top: 3%;
+  left: 2%;
+  font-weight: bold;
+}
+
+/* Grid Layout Styling */
+
+
+.or-grid-container {
+  position: absolute;
+  width: 60%;
+  margin: 0 20%;
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.or-image {
+  width: 100%;
+  padding-bottom: 50px;
 }
 
 .or-video-margin {
-  width: 70%;
-  margin: 0 15% 2% 15%;
-  top: 15%;
+  width: 100%;
+  padding-top;
+  padding-bottom: 50px;
 }
 
 /* Mobile View */
@@ -69,30 +95,74 @@ img {
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
 
-  .or-back-container {
-    width: 4%;
-    left: 5%;
-    top: 90%;
+  /* Emoji Nav Styling */
+
+  .or-header-container {
+    width: 80%;
+    margin: 0 10%;
+    z-index: 99;
+    pointer-events: none;
   }
 
-  .or-navigation-container {
-    position: fixed;
-    top: 2%;
-    width: 40%;
-    margin: 0 30%;
+  /*Word Nav Styling */
+
+  .or-nav-container {
+    display: none;
   }
 
-  .or-navigation-container--right {
-    top: 45%;
+  .or-nav-container--mobile {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: white;
+    border-bottom: black solid 5px;
+    z-index: 98;
+    top: 0;
+  }
+
+  .or-nav-container--mobile-inner--left {
+    font-weight: bold;
+    font-size: 4vw;
+    left: 0;
+    float: left;
+    padding: 50px;
+    width: 35%;
+    bottom: 0;
+  }
+
+  .or-nav-container--mobile-inner--right {
+    font-weight: bold;
+    font-size: 4vw;
+    right: 0;
+    float: right;
+    text-align: right;
+    padding: 50px;
+    width: 35%;
+    bottom: 0;
+  }
+
+  .or-back-arrow-image {
     width: 15%;
-    right: -3%;
-    font-size: 4vw;
   }
 
-  .or-name-container {
-    font-size: 4vw;
-    left: 4%;
+  .or-nav-container-top {
+    display: none;
   }
 
+  /* Grid Layout Styling */
+
+
+  .or-grid-container {
+    position: absolute;
+    width: 90%;
+    margin: 0 5%;
+    padding-top: 300px;
+    padding-bottom: 250px;
+  }
+
+  .or-image {
+    width: 100%;
+    padding-bottom: 50px;
+  }
 
 }
