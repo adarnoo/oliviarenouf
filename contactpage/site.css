@@ -105,6 +105,10 @@ a {
 (max-device-width: 480px) and
 (-webkit-min-device-pixel-ratio: 2) {
 
+  body {
+    overflow: hidden;
+  }
+
   /* Emoji Nav Styling */
 
   .or-header-container {
