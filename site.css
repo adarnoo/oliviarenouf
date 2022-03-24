@@ -84,7 +84,7 @@ a {
   .or-landing-image-container {
     width: 90%;
     margin: 0 5%;
-    padding-top: 300px;
+    padding-top: 250px;
   }
 
   /*Word Nav Styling */
@@ -98,7 +98,6 @@ a {
     display: block;
     width: 100%;
     background-color: white;
-    border-bottom: black solid 5px;
     z-index: 98;
     top: 0;
   }
