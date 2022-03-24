@@ -86,7 +86,7 @@ a {
 .or-video-margin {
   width: 100%;
   padding-top;
-  padding-bottom: 50px;
+  padding-bottom: 200px;
 }
 
 /* Mobile View */
@@ -161,7 +161,7 @@ a {
 
   .or-image {
     width: 100%;
-    padding-bottom: 50px;
+    padding-bottom: 200px;
   }
 
 }
