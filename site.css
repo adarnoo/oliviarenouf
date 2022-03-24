@@ -45,6 +45,11 @@ a {
   width: 100%;
 }
 
+.or-video-margin {
+  width: 100%;
+  padding-bottom: 150px;
+}
+
 /*Word Nav Styling */
 
 .or-nav-container {
@@ -85,6 +90,11 @@ a {
     width: 90%;
     margin: 0 5%;
     padding-top: 250px;
+  }
+
+  .or-video-margin {
+    width: 100%;
+    margin: 0;
   }
 
   /*Word Nav Styling */
