@@ -22,6 +22,7 @@ a {
   width: 50%;
   margin: 0 25%;
   z-index: 99;
+  pointer-events: none;
 }
 
 .or-emoji {
@@ -85,7 +86,6 @@ a {
 
 .or-video-margin {
   width: 100%;
-  padding-bottom: 150px;
 }
 
 /* Mobile View */
