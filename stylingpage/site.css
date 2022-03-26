@@ -84,6 +84,11 @@ a {
   padding-bottom: 200px;
 }
 
+.or-image--small {
+  width: 40%;
+  margin: 0 30%;
+}
+
 /* Mobile View */
 
 @media only screen and (min-device-width: 320px) and
@@ -157,6 +162,12 @@ a {
   .or-image {
     width: 100%;
     padding-bottom: 200px;
+  }
+
+  .or-image--small {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 200px 0;
   }
 
 }
