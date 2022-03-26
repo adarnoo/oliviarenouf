@@ -1,0 +1,185 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: helvetica;
+  font-size: 1vw;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.or-page-content {
+  width: 100%;
+  height: 100vh;
+}
+
+/* Emoji Nav Styling */
+
+.or-header-container {
+  position: absolute;
+  width: 50%;
+  margin: 0 25%;
+  z-index: 99;
+  pointer-events: none;
+}
+
+.or-emoji {
+  width: 100%;
+  pointer-events: none;
+}
+
+.or-emoji--first {
+  float: left;
+}
+
+.or-emoji--second {
+  position: absolute;
+  float: left;
+  right: 0;
+}
+
+.or-main-content {
+  position: absolute;
+  width: 100%;
+}
+
+/*Word Nav Styling */
+
+.or-nav-container {
+  position: fixed;
+  bottom: 3%;
+  left: 2%;
+  font-weight: bold;
+}
+
+.or-back-arrow-image {
+  width: 2%;
+}
+
+.or-nav-container--mobile {
+  display: none;
+}
+
+.or-nav-container-top {
+  position: fixed;
+  top: 3%;
+  left: 2%;
+  font-weight: bold;
+}
+
+/* Grid Layout Styling */
+
+
+.or-grid-container {
+  position: absolute;
+  width: 60%;
+  margin: 0 20%;
+  top: 3%;
+  padding-bottom: 50px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.or-image {
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+.or-image--small {
+  width: 40%;
+  margin: 0 30%;
+}
+
+.or-video-margin {
+  width: 100%;
+  padding-bottom: 150px;
+}
+
+
+/* Mobile View */
+
+@media only screen and (min-device-width: 320px) and
+(max-device-width: 480px) and
+(-webkit-min-device-pixel-ratio: 2) {
+
+  /* Emoji Nav Styling */
+
+  .or-header-container {
+    width: 80%;
+    margin: 0 10%;
+    z-index: 99;
+    pointer-events: none;
+  }
+
+  /*Word Nav Styling */
+
+  .or-nav-container {
+    display: none;
+  }
+
+  .or-nav-container--mobile {
+    position: absolute;
+    display: block;
+    width: 100%;
+    background-color: white;
+    z-index: 98;
+    top: 0;
+  }
+
+  .or-nav-container--mobile-inner--left {
+    font-weight: bold;
+    font-size: 4vw;
+    left: 0;
+    float: left;
+    padding: 50px;
+    width: 35%;
+    bottom: 0;
+  }
+
+  .or-nav-container--mobile-inner--right {
+    font-weight: bold;
+    font-size: 4vw;
+    right: 0;
+    float: right;
+    text-align: right;
+    padding: 50px;
+    width: 35%;
+    bottom: 0;
+  }
+
+  .or-back-arrow-image {
+    width: 15%;
+  }
+
+  .or-nav-container-top {
+    display: none;
+  }
+
+  /* Grid Layout Styling */
+
+
+  .or-grid-container {
+    position: absolute;
+    width: 90%;
+    margin: 0 5%;
+    padding-top: 200px;
+    padding-bottom: 50px;
+    font-size: 4vw;
+    font-weight: bold;
+  }
+
+  .or-image {
+    width: 100%;
+    padding-bottom: 200px;
+  }
+
+  .or-image--small {
+    width: 100%;
+    margin: 0;
+    padding: 0 0 50px 0;
+  }
+
+}
