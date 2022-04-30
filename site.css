@@ -15,6 +15,39 @@ a {
   height: 100vh;
 }
 
+img {
+  width: 100%;
+}
+
+/* Star Styling */
+
+.ao-star-container {
+  position: fixed;
+  width: 3%;
+  top: 5%;
+  right: 10%;
+  animation-name: star-one;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+}
+
+.ao-star-flash {
+  animation-name: flashing-star;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes star-one {
+  from {
+    top: 5%;
+    right: 10%
+  }
+  to {
+    top: 50%;
+    right: 90%;
+  }
+}
+
 /* Emoji Nav Styling */
 
 .or-header-container {
@@ -79,6 +112,36 @@ a {
 
   body {
     overflow: hidden;
+  }
+
+  /* Star Styling */
+
+  .ao-star-container {
+    position: fixed;
+    width: 10%;
+    top: 20%;
+    right: 10%;
+    animation-name: star-one;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    z-index: 100;
+  }
+
+  .ao-star-flash {
+    animation-name: flashing-star;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes star-one {
+    from {
+      top: 20%;
+      right: 10%
+    }
+    to {
+      top: 70%;
+      right: 60%;
+    }
   }
 
   /* Emoji Nav Styling */
