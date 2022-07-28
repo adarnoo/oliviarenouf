@@ -24,28 +24,28 @@ img {
 .ao-star-container {
   position: fixed;
   width: 3%;
-  top: 70%;
-  right: 80%;
+  top: -5%;
+  left: 30%;
   animation-name: star-one;
   animation-duration: 80s;
   animation-iteration-count: infinite;
-  z-index: 100;
-}
-
-.ao-star-flash {
-  animation-name: flashing-star;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 1000;
+  pointer-events: none;
 }
 
 @keyframes star-one {
-  from {
-    top: 70%;
-    right: 80%;
+  0% {
+    top: -5%;
+    left: 30%;
   }
-  to {
-    top: 30%;
-    right: 10%;
+  50% {
+    top: 80%;
+    left: 105%;
+  }
+  100% {
+    top: 60%;
+    left: -5%;
   }
 }
 
@@ -131,30 +131,23 @@ img {
   /* Star Styling */
 
   .ao-star-container {
-    position: fixed;
     width: 10%;
-    top: 70%;
-    right: 80%;
-    animation-name: star-one;
-    animation-duration: 50s;
-    animation-iteration-count: infinite;
-    z-index: 100;
-  }
-
-  .ao-star-flash {
-    animation-name: flashing-star;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
+    top: -12%;
+    left: 30%;
   }
 
   @keyframes star-one {
-    from {
-      top: 70%;
-      right: 80%;
+    0% {
+      top: -8%;
+      left: 30%;
     }
-    to {
-      top: 30%;
-      right: 10%;
+    50% {
+      top: 80%;
+      left: 112%;
+    }
+    100% {
+      top: 60%;
+      left: -12%;
     }
   }
 

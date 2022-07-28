@@ -10,9 +10,43 @@ a {
   color: black;
 }
 
+img {
+  width: 100%;
+}
+
 .or-page-content {
   width: 100%;
   height: 100vh;
+}
+
+/* Star Styling */
+
+.ao-star-container {
+  position: fixed;
+  width: 3%;
+  top: 20%;
+  left: -2%;
+  animation-name: star-one;
+  animation-duration: 80s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+@keyframes star-one {
+  0% {
+    top: 20%;
+    left: -2%;
+  }
+  50% {
+    top: 20%;
+    left: 104%;
+  }
+  100% {
+    top: 80%;
+    left: -5%;
+  }
 }
 
 /* Emoji Nav Styling */
@@ -123,6 +157,27 @@ a {
 
   body {
     overflow: hidden;
+  }
+
+  /* Star Styling */
+
+  .ao-star-container {
+    width: 10%;
+  }
+
+  @keyframes star-one {
+    0% {
+      top: 30%;
+      left: -12%;
+    }
+    50% {
+      top: 50%;
+      left: 112%;
+    }
+    100% {
+      top: 90%;
+      left: -12%;
+    }
   }
 
   /* Emoji Nav Styling */
