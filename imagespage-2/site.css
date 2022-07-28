@@ -155,14 +155,17 @@ a {
     display: none;
   }
 
-  .or-nav-container--mobile {
+  .or-nav-container-blur {
     position: fixed;
-    display: block;
     width: 100%;
     backdrop-filter: blur(10px);
     background-image: linear-gradient(0deg,rgba(255,255,255,0.15),white);
-    z-index: 98;
+    z-index: 90;
     top: 0;
+  }
+
+  .or-nav-container--mobile {
+    display: block;
   }
 
   .or-nav-container--mobile-inner--left {
